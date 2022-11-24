@@ -6,7 +6,14 @@ float convertCurrency(float currency, float exchangeRate)
     return currency * exchangeRate;
 }
 
-// TODO: Use Currying to take a higher order function and make it specific for an exchange rate
+// TODO: Divide up code into 3 libraries (core logic, CLI program, and GUI program)
+// Question: how to divide code up into libraries?
+// Question: how to set up CMake for this project?
+
+// TODO: Use OpenGL or GLFW to develop GUI version
+// Resources:
+// https://learnopengl.com/
+// https://www.glfw.org/documentation.html
 
 int main()
 {
