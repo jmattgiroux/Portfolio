@@ -2,7 +2,7 @@
 // This file holds the code that controls the command line interface.
 
 #include <iostream>
-#include "core_logic.h"
+#include "convert_currency.h"
 
 // TODO: Divide up code into 3 libraries (core logic, CLI program, and GUI program)
 // Question: how to divide code up into libraries?
