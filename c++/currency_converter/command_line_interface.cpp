@@ -1,10 +1,8 @@
-// Main.cpp
-#include <iostream>
+// commandLineInterface.cpp
+// This file holds the code that controls the command line interface.
 
-float convertCurrency(float currency, float exchangeRate)
-{
-    return currency * exchangeRate;
-}
+#include <iostream>
+#include "core_logic.h"
 
 // TODO: Divide up code into 3 libraries (core logic, CLI program, and GUI program)
 // Question: how to divide code up into libraries?
