@@ -1,0 +1,10 @@
+^C:\REPOS\PORTFOLIO\C++\CURRENCY_CONVERTER\BUILD\CMAKEFILES\68CB118CB2981AAF9678912126F26899\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Repos/Portfolio/c++/currency_converter -BC:/Repos/Portfolio/c++/currency_converter/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Repos/Portfolio/c++/currency_converter/build/Currency_Converter.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
